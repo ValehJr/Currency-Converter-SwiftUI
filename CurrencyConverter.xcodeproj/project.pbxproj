@@ -11,6 +11,17 @@
 		1D08D6952C78B23900BBDE5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D08D6942C78B23900BBDE5E /* ContentView.swift */; };
 		1D08D6972C78B23B00BBDE5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D08D6962C78B23B00BBDE5E /* Assets.xcassets */; };
 		1D08D69A2C78B23B00BBDE5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D08D6992C78B23B00BBDE5E /* Preview Assets.xcassets */; };
+		1D08D6A52C78B4A200BBDE5E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D08D6A22C78B4A200BBDE5E /* Roboto-Regular.ttf */; };
+		1D08D6A62C78B4A200BBDE5E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D08D6A32C78B4A200BBDE5E /* Roboto-Medium.ttf */; };
+		1D08D6A72C78B4A200BBDE5E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D08D6A42C78B4A200BBDE5E /* Roboto-Bold.ttf */; };
+		1D08D6A92C79CA4B00BBDE5E /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D08D6A82C79CA4B00BBDE5E /* CountryView.swift */; };
+		1D08D6AB2C79D55C00BBDE5E /* ExchangerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D08D6AA2C79D55C00BBDE5E /* ExchangerView.swift */; };
+		1D08D6B22C7A098700BBDE5E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D08D6B12C7A098700BBDE5E /* Config.swift */; };
+		1D08D6B42C7A136C00BBDE5E /* CurrencyRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D08D6B32C7A136C00BBDE5E /* CurrencyRate.swift */; };
+		1D3F288C2C7C635F002AC60B /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F288B2C7C635F002AC60B /* CountryViewModel.swift */; };
+		1DAFAD2C2C7A446F007FCC29 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAFAD2B2C7A446F007FCC29 /* NetworkManager.swift */; };
+		1DAFAD2E2C7A44EF007FCC29 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAFAD2D2C7A44EF007FCC29 /* NetworkErrors.swift */; };
+		1DAFAD302C7A4A61007FCC29 /* ExchangerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAFAD2F2C7A4A61007FCC29 /* ExchangerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		1D08D6942C78B23900BBDE5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D08D6962C78B23B00BBDE5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D08D6992C78B23B00BBDE5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D08D6A02C78B42200BBDE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1D08D6A22C78B4A200BBDE5E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		1D08D6A32C78B4A200BBDE5E /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		1D08D6A42C78B4A200BBDE5E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		1D08D6A82C79CA4B00BBDE5E /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		1D08D6AA2C79D55C00BBDE5E /* ExchangerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangerView.swift; sourceTree = "<group>"; };
+		1D08D6B12C7A098700BBDE5E /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		1D08D6B32C7A136C00BBDE5E /* CurrencyRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRate.swift; sourceTree = "<group>"; };
+		1D3F288B2C7C635F002AC60B /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		1DAFAD2B2C7A446F007FCC29 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1DAFAD2D2C7A44EF007FCC29 /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		1DAFAD2F2C7A4A61007FCC29 /* ExchangerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +75,13 @@
 			isa = PBXGroup;
 			children = (
 				1D08D6922C78B23900BBDE5E /* CurrencyConverterApp.swift */,
-				1D08D6942C78B23900BBDE5E /* ContentView.swift */,
+				1D08D6B02C7A097800BBDE5E /* Services */,
+				1D08D6AC2C7A084C00BBDE5E /* Models */,
+				1D08D6AF2C7A08D500BBDE5E /* Views */,
+				1D08D6AE2C7A085C00BBDE5E /* ViewModels */,
 				1D08D6962C78B23B00BBDE5E /* Assets.xcassets */,
+				1D08D6A02C78B42200BBDE5E /* Info.plist */,
+				1D08D6A12C78B48F00BBDE5E /* Fonts */,
 				1D08D6982C78B23B00BBDE5E /* Preview Content */,
 			);
 			path = CurrencyConverter;
@@ -65,6 +93,53 @@
 				1D08D6992C78B23B00BBDE5E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D08D6A12C78B48F00BBDE5E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1D08D6A42C78B4A200BBDE5E /* Roboto-Bold.ttf */,
+				1D08D6A32C78B4A200BBDE5E /* Roboto-Medium.ttf */,
+				1D08D6A22C78B4A200BBDE5E /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1D08D6AC2C7A084C00BBDE5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D08D6B32C7A136C00BBDE5E /* CurrencyRate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D08D6AE2C7A085C00BBDE5E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1DAFAD2F2C7A4A61007FCC29 /* ExchangerViewModel.swift */,
+				1D3F288B2C7C635F002AC60B /* CountryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1D08D6AF2C7A08D500BBDE5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D08D6942C78B23900BBDE5E /* ContentView.swift */,
+				1D08D6AA2C79D55C00BBDE5E /* ExchangerView.swift */,
+				1D08D6A82C79CA4B00BBDE5E /* CountryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D08D6B02C7A097800BBDE5E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1D08D6B12C7A098700BBDE5E /* Config.swift */,
+				1DAFAD2D2C7A44EF007FCC29 /* NetworkErrors.swift */,
+				1DAFAD2B2C7A446F007FCC29 /* NetworkManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +200,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D08D6A62C78B4A200BBDE5E /* Roboto-Medium.ttf in Resources */,
+				1D08D6A52C78B4A200BBDE5E /* Roboto-Regular.ttf in Resources */,
+				1D08D6A72C78B4A200BBDE5E /* Roboto-Bold.ttf in Resources */,
 				1D08D69A2C78B23B00BBDE5E /* Preview Assets.xcassets in Resources */,
 				1D08D6972C78B23B00BBDE5E /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +215,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D08D6A92C79CA4B00BBDE5E /* CountryView.swift in Sources */,
 				1D08D6952C78B23900BBDE5E /* ContentView.swift in Sources */,
+				1DAFAD302C7A4A61007FCC29 /* ExchangerViewModel.swift in Sources */,
+				1D08D6B22C7A098700BBDE5E /* Config.swift in Sources */,
+				1DAFAD2C2C7A446F007FCC29 /* NetworkManager.swift in Sources */,
+				1D08D6AB2C79D55C00BBDE5E /* ExchangerView.swift in Sources */,
+				1DAFAD2E2C7A44EF007FCC29 /* NetworkErrors.swift in Sources */,
+				1D08D6B42C7A136C00BBDE5E /* CurrencyRate.swift in Sources */,
 				1D08D6932C78B23900BBDE5E /* CurrencyConverterApp.swift in Sources */,
+				1D3F288C2C7C635F002AC60B /* CountryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +361,7 @@
 				DEVELOPMENT_TEAM = W8RLJ8MS39;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CurrencyConverter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +391,7 @@
 				DEVELOPMENT_TEAM = W8RLJ8MS39;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CurrencyConverter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
